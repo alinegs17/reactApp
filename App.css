@@ -1,0 +1,72 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 2px solid white;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+    height: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+  }
+.squareGrey {
+    background: grey;
+    border: 1px solid white;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+    height: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+}
+.squareWhite {
+    background:beige;
+    border: 1px solid white;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+    height: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+}
+
+.gamePiece {
+  background: red;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+}
+.square:focus {
+    outline: none;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+}
+  
+.game-info {
+    margin-left: 20px;
+    font-size: 15px;
+}

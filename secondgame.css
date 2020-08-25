@@ -1,0 +1,78 @@
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand
+{
+  height:40 px;
+  padding-left: 30 px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #216e21!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+.container2
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.container2 img
+{
+  width: 100%;
+  height: 700 px;
+}
+.container2 .btn2
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  -ms-transform: translate(-50%, 150%);
+  background-color: rgb(54, 68, 59);
+  color: white;
+  font-size: 40px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.containter2 .btn2:hover
+{
+  background-color: rgb(7, 63, 5);
+}
+.container2 .game-info2 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 5%);
+  -ms-transform: translate(-50%, 5%);
+}

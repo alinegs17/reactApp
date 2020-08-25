@@ -1,0 +1,93 @@
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand
+{
+  height:40 px;
+  padding-left: 30 px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #216e21!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+.container
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.container img
+{
+  width: 100%;
+}
+.container .btn
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(54, 68, 59);
+  color: white;
+  font-size: 40px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.containter .btn:hover
+{
+  background-color: rgb(7, 63, 5);
+}
+.container .user-input
+{
+  text-align: center; 
+  margin-top: 100px; 
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+
+}
+.container .game-info 
+{
+  background-color: #4b6352;
+  color: white; 
+  font-size: 34px;
+  margin-top: 175px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+  transform: translate(-13%, -13%);
+  -ms-transform: translate(-13%, -13%);
+}
